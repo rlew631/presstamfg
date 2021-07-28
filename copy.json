@@ -1,0 +1,89 @@
+{
+"MainPage":{
+  "Heading":"Pressta is San Francisco's premiere manufacturing facility specializing in R&D, prototyping and small to medium production runs. We are committed to helping meet your design and manufacturing needs.",
+  "TopCards":{
+    "Process":"We will work with you to make sure your project is completed in-spec and on time.",
+    "Materials":"We are able to machine most materials, including; steel, stainless steel, aluminum and plastics.",
+    "Knowledge":"Our skilled designers and technicians are some of the best in the business."
+  },
+  "BottomCards":{
+    "AdvancedMachinery":"We use modern high speed machining strategies to turn jobs around quicker than the competition.",
+    "OnTimeEverytime":"Pressta MFG’s combined 21 years of experience in metalworking and fabrication helps keep projects on track and allows us to foresee potential issues before they come up.",
+    "SkilledExperts":"Our comprehensive background allows us to offer more services in-house saving you time and money by preventing delays and expensive reworks.",
+    "FulfillingYourNeeds":"Our engineering expertise allows us to turn your idea into a finished product and reproduce / repair pieces which are no longer in production."
+  }
+},
+"Capabilities":{
+  "Materials":{
+  "Steel":[
+    "Mild (A36)",
+    "Cold Rolled (1018)",
+    "4140", "4340",
+    "Tool Steel",
+    "300 Series Stainless",
+    "400 Series Stainless"],
+  "Aluminum":[
+    "300 Series Casting Alloys",
+    "2000 Series Alloys",
+    "5000 Series Alloys",
+    "6000 Series Alloys",
+    "7000 Series Alloys",
+    "1100 “Pure” Aluminum",
+    "MIC6 Tooling Plate",
+    "Other Aluminum Tooling Plate"],
+  "Brass & Bronze":[
+    "220 Bronze Sheet",
+    "385 Architectural Brass",
+    "510",
+    "544 High Strength",
+    "642 High Strength",
+    "655 Weldable",
+    "841 Graphite Impregnated",
+    "863 High Strength",
+    "900 Series Bronze"],
+  "Plastics":[
+    "ABS",
+    "Acetal (Delrin)",
+    "PEI (Ultem)",
+    "PEEK",
+    "HDPE",
+    "Fiber Reinforced Plastics"]
+  }
+  "Finishes":{
+  "Anodized":[
+    "Type I, Class 1, Clear",
+    "Type I, Class 2, Color",
+    "Type II, Class 1, Clear",
+    "Type II, Class 2, Black",
+    "Type II, Class 2, Colored",
+    "Hard Clear",
+    "Hard Black",
+    "Hard Colors",
+    "Chromic",
+    "Tataric",
+    "PTFE on Hard",
+    "Colored Titanium"],
+  "Other":[
+    "Alodine / Alocrom",
+    "Irradiate",
+    "Pickling",
+    "Electropolishing",
+    "Vapor Polishing",
+    "Mirror Polishing (Non-Directional with a very high degree of image clarity, typically 0.05 µm Ra or less. Sample may be required)",
+    "Powder Coating",
+    "Bead Blast",
+    "Chromate Conversion Coating",
+    "Electroless Nickel Plating",
+    "Nickel Plated",
+    "Passivation",
+    "Chemical Blackening",
+    "Cerakoting",
+    "Vibratory Polishing",
+    "Spray Painting"]
+  }
+}
+"Contact":{
+  "Email":"Shop@getpressta.com",
+  "Phone":"(415) 349-5350",
+  "Address":"73 Converse St. San Francisco, CA 94103"
+}}

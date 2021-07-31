@@ -1,8 +1,8 @@
 import {createUseStyles} from 'react-jss';
-import Header from './header';
-import Home from './home'
-import Capabilities from './capabilities';
-import Contact from './contact';
+import Header from './components/header';
+import Home from './components/home'
+import Capabilities from './components/capabilities';
+import Contact from './components/contact';
 import {
   BrowserRouter as Router,
   Switch,

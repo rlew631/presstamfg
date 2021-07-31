@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from '../logo.svg';
 import {createUseStyles} from 'react-jss';
 import {Link} from "react-router-dom";
 

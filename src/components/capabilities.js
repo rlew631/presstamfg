@@ -1,5 +1,5 @@
 import {createUseStyles} from 'react-jss';
-import { classicNameResolver } from 'typescript';
+import { Container, Row, Col } from 'reactstrap';
 import copy from '../copy.json';
 
 function listItems(data){
@@ -15,24 +15,26 @@ const useStyles = createUseStyles({
 function Capabilities() {
   const classes = useStyles();
   return (
-    <div>
-      <div>
-        <h3>Steel</h3>
-        <ul className = {classes.material}>{listItems(copy.Capabilities.Materials.Steel)}</ul>
-      </div>
-      <div>
-        <h3>Aluminum</h3>
-        <ul className = {classes.material}>{listItems(copy.Capabilities.Materials.Aluminum)}</ul>
-      </div>
-      <div>
-        <h3>Brass and Bronze</h3>
-        <ul className = {classes.material}>{listItems(copy.Capabilities.Materials.BrassBronze)}</ul>
-      </div>
-      <div>
-        <h3>Plastics</h3>
-        <ul className = {classes.material}>{listItems(copy.Capabilities.Materials.Plastics)}</ul>
-      </div>
-    </div>
+    <Container>
+      <Row>
+        <Col>
+          <h3>Steel</h3>
+          <ul className = {classes.material}>{listItems(copy.Capabilities.Materials.Steel)}</ul>
+        </Col>
+        <Col>
+          <h3>Aluminum</h3>
+          <ul className = {classes.material}>{listItems(copy.Capabilities.Materials.Aluminum)}</ul>
+        </Col>
+        <Col>
+          <h3>Brass and Bronze</h3>
+          <ul className = {classes.material}>{listItems(copy.Capabilities.Materials.BrassBronze)}</ul>
+        </Col>
+        <Col>
+          <h3>Plastics</h3>
+          <ul className = {classes.material}>{listItems(copy.Capabilities.Materials.Plastics)}</ul>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

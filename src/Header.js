@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import {createUseStyles} from 'react-jss';
+import {Link} from "react-router-dom";
 
 const useStyles = createUseStyles({
   main: {
@@ -33,9 +34,11 @@ function Header() {
         <img src={logo} alt="logo"/>
       </div>
       <div className={classes.links}>
-        <a href="./about" className={classes.link}>About Us</a>
-        <a href="./capabilities" className={classes.link}>Capabilities</a>
-        <a href="./contact" className={classes.link}>Contact</a>
+        <nav>
+          <Link to="/"className={classes.link}>Home</Link>
+          <Link to="/capabilities"className={classes.link}>Capabilities</Link>
+          <Link to="/contact"className={classes.link}>Contact</Link>
+        </nav>
       </div>
     </header>
   );

@@ -14,6 +14,7 @@
   }
 },
 "Capabilities":{
+  "Statement": "We specialize in CNC machined parts, gaskets and welded assemblies",
   "Materials":{
   "Steel":[
     "Mild (A36)",

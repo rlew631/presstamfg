@@ -13,7 +13,23 @@
     "FulfillingYourNeeds":"Our engineering expertise allows us to turn your idea into a finished product and reproduce / repair pieces which are no longer in production."
   }
 },
-"Capabilities":{
+"Engineering":{
+  "Statement": "We specialize in design for manufacture / servicability and top of the line analysis.",
+  "Services":{
+    "Mechanical":[
+      "CAD (Computer Aided Design)",
+      "FEA (Finite Element Analysis)",
+      "CFD (Computational Fluid Dynamics)",
+      "FMEA (Failure Mode and Effect Analysis)",
+      "Design for Manufacturability"],
+    "Electrical":[
+      "Product Development",
+      "Firmware Programming",
+      "PCB Design"
+    ]
+    }
+  },
+"Manufacturing":{
   "Statement": "We specialize in CNC machined parts, gaskets and welded assemblies",
   "Materials":{
   "Steel":[
@@ -80,7 +96,7 @@
     "Chemical Blackening",
     "Cerakoting",
     "Vibratory Polishing",
-    "Spray Painting"]
+    "Painting"]
   }
 },
 "Contact":{

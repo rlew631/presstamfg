@@ -10,7 +10,6 @@ const useStyles = createUseStyles({
   materialFinishes: {
     textAlign: 'left'
   },
-
 });
 
 function Manufacturing() {
@@ -19,6 +18,35 @@ function Manufacturing() {
     <div>
       <h1>What we do</h1>
       {copy.Manufacturing.Statement}
+      <Container>
+        <h2>Services</h2>
+        <Row justify="center">
+          <Col>
+            <h3>Machining</h3>
+            <div>
+              {copy.Manufacturing.Services.Machining}
+            </div>
+          </Col>
+          <Col>
+            <h3>3D Printing</h3>
+            <div>
+            {copy.Manufacturing.Services.Printing}
+            </div>
+          </Col>
+          <Col>
+            <h3>Laser Cutting</h3>
+            <div>
+            {copy.Manufacturing.Services.LaserCutting}
+            </div>
+          </Col>
+          <Col>
+            <h3>Welding</h3>
+            <div>
+            {copy.Manufacturing.Services.Welding}
+            </div>
+          </Col>
+        </Row>
+      </Container>
       <Container>
       <h2>Materials</h2>
         <Row>

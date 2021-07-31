@@ -1,10 +1,10 @@
 {
-"MainPage":{
-  "Heading":"Pressta is San Francisco's premiere manufacturing facility specializing in R&D, prototyping and small to medium production runs. We are committed to helping meet your design and manufacturing needs.",
-  "TopCards":{
-    "Process":"We will work with you to make sure your project is completed in-spec and on time.",
-    "Materials":"We are able to machine most materials, including; steel, stainless steel, aluminum and plastics.",
-    "Knowledge":"Our skilled designers and technicians are some of the best in the business."
+"Home":{
+  "Statement":"Pressta is San Francisco's premiere engineering, design and manufacturing facility specializing in R&D, prototyping and assembly.",
+  "Services":{
+    "Design":"Our skilled designers are some of the best in the business. They can help any stage of the process from turning your concept into a reality or applying that final polish.",
+    "Engineering":"We will work with you to make sure your project is completed in-spec and on time. We have an extensive background designing products for B2B and consumer use",
+    "Manufacturing":"We are able to machine most materials, including; steel, stainless steel, aluminum and plastics."
   },
   "BottomCards":{
     "AdvancedMachinery":"We use modern high speed machining strategies to turn jobs around quicker than the competition.",
@@ -31,6 +31,12 @@
   },
 "Manufacturing":{
   "Statement": "We specialize in CNC machined parts, gaskets and welded assemblies",
+  "Services":{
+    "Machining":"We can produce turned and milled parts using our in-house engine lathe and CNC",
+    "Printing":"We have both SLA and FDM 3D printers to quickly prototype plastic components.",
+    "LaserCutting":"We frequently use laser cutting to produce gaskets and stencils/graphics.",
+    "Welding":"We use TIG and MIG welding to join complex assemblies and perform repairs to existing components"
+  },
   "Materials":{
   "Steel":[
     "Mild (A36)",

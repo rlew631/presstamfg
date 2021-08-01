@@ -1,6 +1,7 @@
 import {createUseStyles} from 'react-jss';
 import Header from './components/header';
 import Home from './components/home'
+import Design from './components/design';
 import Engineering from './components/engineering';
 import Manufacturing from './components/manufacturing';
 import Contact from './components/contact';
@@ -25,6 +26,7 @@ function App() {
         <body>
           <Switch>
             <Route path="/" exact={true} component={Home} ></Route>
+            <Route path="/design" component={Design}></Route>
             <Route path="/engineering" component={Engineering}></Route>
             <Route path="/manufacturing" component={Manufacturing}></Route>
             <Route path="/contact" component={Contact}></Route>

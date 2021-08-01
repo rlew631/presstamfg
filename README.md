@@ -1,3 +1,5 @@
+Run `firebase deploy` to deploy the app to presstamfg.web.app
+
 ToDo:
 - Set up pages for "Our Shop", "Capabilities" and "Contact"
 - Get pics from current site

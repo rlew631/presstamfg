@@ -12,23 +12,22 @@ const useStyles = createUseStyles({
   },
 });
 
-function Engineering() {
+function Design() {
   const classes = useStyles();
   return (
     <div>
       <h1>What we do</h1>
-      {copy.Engineering.Statement}
+      {copy.Design.Statement}
       <Container>
       <h2>Services</h2>
-      <h2>THIS IS ALL JUST FILLER FOR NOW</h2>
         <Row>
           <Col lg={{size: 4, offset: 2}} md={{size: 10, offset:1}}>
             <h3>Mechanical</h3>
-            <ul className = {classes.services}>{listItems(copy.Engineering.Services.Mechanical)}</ul>
+            <ul className = {classes.services}>{listItems(copy.Design.Services.Mechanical)}</ul>
           </Col>
           <Col lg="4" md={{size:10, offset:1}}>
             <h3>Electrical</h3>
-            <ul className = {classes.services}>{listItems(copy.Engineering.Services.Electrical)}</ul>
+            <ul className = {classes.services}>{listItems(copy.Design.Services.Electrical)}</ul>
           </Col>
         </Row>
       </Container>
@@ -36,4 +35,4 @@ function Engineering() {
   );
 }
 
-export default Engineering;
+export default Design;

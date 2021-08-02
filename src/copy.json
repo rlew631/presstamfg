@@ -13,6 +13,18 @@
     "FulfillingYourNeeds":"Our engineering expertise allows us to turn your idea into a finished product and reproduce / repair pieces which are no longer in production."
   }
 },
+"Design":{
+  "Statement":"filler filler text yo, filler filler text",
+  "Services":{
+    "Mechanical":[
+      "Design for Manufacturability",
+      "Design for Asembly",
+      "Design for Servicability"],
+    "Electrical":[
+      "Product Development",
+      "Circuit Design"]
+  }
+},
 "Engineering":{
   "Statement": "We specialize in design for manufacture / servicability and top of the line analysis.",
   "Services":{
@@ -20,15 +32,13 @@
       "CAD (Computer Aided Design)",
       "FEA (Finite Element Analysis)",
       "CFD (Computational Fluid Dynamics)",
-      "FMEA (Failure Mode and Effect Analysis)",
-      "Design for Manufacturability"],
+      "FMEA (Failure Mode and Effect Analysis)"],
     "Electrical":[
-      "Product Development",
       "Firmware Programming",
-      "PCB Design"
-    ]
-    }
-  },
+      "PCB Design",
+      "Design for PCB Assembly"]
+  }
+},
 "Manufacturing":{
   "Statement": "We specialize in CNC machined parts, gaskets and welded assemblies",
   "Services":{

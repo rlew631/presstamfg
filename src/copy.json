@@ -1,15 +1,19 @@
 {
 "Home":{
-  "Statement":"Pressta is San Francisco's premiere engineering, design and manufacturing facility specializing in R&D, prototyping and assembly.",
+  "WhatWeDoStatement":"Located strategically in the bay area Pressta is a premiere engineering, design and precision manufacturing facility specializing in R&D, prototyping and assembly.",
+  "AboutUsStatement":"Pressta currntly consists of 5 full time employees with a diverse set of skills ranging from graphic design to welding. Being small allows us to give our clients our full attention and keep them in the loop as their project comes together.",
+  "WhyUsePresstaStatement":"We all know that finding new vendors isn't easy. Whether you're looking to just test the waters or commit long-term our team will stand by our work and do whatever it takes to ensure your project is successful.",
+  "IndustriesServed":"Pressta has worked with companies in the aerospace, automotive, and research/academic sectors.",
+  "ClassificationsCertifications":"Pressta is ITAR registered, a small business and have begun the process of becoming ISO-9001 / AS9100D certified.",
   "Services":{
     "Design":"Our skilled designers are some of the best in the business. They can help any stage of the process from turning your concept into a reality or applying that final polish.",
     "Engineering":"We will work with you to make sure your project is completed in-spec and on time. We have an extensive background designing products for B2B and consumer use",
-    "Manufacturing":"We are able to machine most materials, including; steel, stainless steel, aluminum and plastics."
+    "Manufacturing":"We are able to manufacture most metal and plastic parts with our in-house machine shop and finishing capabilities."
   },
   "BottomCards":{
     "AdvancedMachinery":"We use modern high speed machining strategies to turn jobs around quicker than the competition.",
     "OnTimeEverytime":"Pressta MFG’s combined 21 years of experience in metalworking and fabrication helps keep projects on track and allows us to foresee potential issues before they come up.",
-    "SkilledExperts":"Our comprehensive background allows us to offer more services in-house saving you time and money by preventing delays and expensive reworks.",
+    "SkilledExperts":"Our comprehensive background allows us to offer more services in-house saving you time and increasing your bottom line by preventing delays and expensive reworks.",
     "FulfillingYourNeeds":"Our engineering expertise allows us to turn your idea into a finished product and reproduce / repair pieces which are no longer in production."
   }
 },
@@ -113,13 +117,16 @@
         }
     },
     "Printing":{
-      "Statement":"We have both SLA and FDM 3D printers to quickly prototype plastic components."
+      "Statement":"We have both SLA and FDM 3D printers to quickly prototype plastic components.",
+      "Materials":["Resin", "ABS", "PLA", "Nylon", "PETG", "Carbon Fiber Reinforced", "PVA"]
     },
     "LaserCutting":{
-      "Statement":"We frequently use laser cutting to produce gaskets and stencils/graphics."
+      "Statement":"We frequently use laser cutting to produce gaskets and stencils/graphics.",
+      "Materials":["Most plastics","Wood","Metal","Glass"]
     },
     "Welding":{
-      "Statement":"We use TIG and MIG welding to join complex assemblies and perform repairs to existing components"
+      "Statement":"We use TIG and MIG welding to join complex assemblies and perform repairs to existing components",
+      "Materials":["Steel","Aluminum","Brass","Titanium"]
     }
   }
 },

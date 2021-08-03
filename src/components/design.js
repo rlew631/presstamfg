@@ -16,7 +16,7 @@ function Design() {
   const classes = useStyles();
   return (
     <div>
-      <h1>What we do</h1>
+      <h1>What We Do</h1>
       {copy.Design.Statement}
       <Container>
       <h2>Services</h2>

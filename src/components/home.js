@@ -19,9 +19,33 @@ function Home() {
   const classes = useStyles();
   return (
     <div>
-      <h1>What we do</h1>
-      {copy.Home.Statement}
       <Container>
+        <Row justify="center">
+          <Col lg={{size: 10, offset: 1}}>
+            <h1>What We Do</h1>
+            {copy.Home.WhatWeDoStatement}
+          </Col>
+          <Col lg={{size: 10, offset: 1}}>
+            <h1>About The Team</h1>
+            {copy.Home.AboutUsStatement}
+          </Col>
+          <Col lg={{size: 10, offset: 1}}>
+            <h1>Why Use Pressta</h1>
+            {copy.Home.WhyUsePresstaStatement} 
+          </Col>
+          <Col lg={{size: 10, offset: 1}}>
+            <h1>Industries Served</h1>
+            {copy.Home.IndustriesServed}
+          </Col>
+          <Col lg={{size: 10, offset: 1}}>
+            <h1>Classifications and Certifications</h1>
+            {copy.Home.ClassificationsCertifications}
+          </Col>
+        </Row>
+      </Container>
+
+      <Container>
+        <br></br><br></br><br></br><br></br>
         <h2>Services</h2>
         <Row justify="center">
           <Col lg={{size: 3, offset: 1.5}} md={{size: 10, offset:1}}>

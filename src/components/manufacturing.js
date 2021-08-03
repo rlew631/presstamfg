@@ -28,7 +28,7 @@ function Manufacturing() {
   const classes = useStyles();
   return (
     <div>
-      <h1>What we do</h1>
+      <h1>What We Do</h1>
       {copy.Manufacturing.Statement}
       <Container>
         <h2>Services</h2>
@@ -76,7 +76,8 @@ function Manufacturing() {
         </Row>
       </Container>
       <Container>
-      <h2>Materials</h2>
+      <h2>Materials (Machining)</h2>
+      Maybe put in something saying to contact us for questions regarding titanium and other exotic metals.
         <Row>
           <Col>
             <h3>Steel</h3>
@@ -101,13 +102,36 @@ function Manufacturing() {
         <Row justify="center">
           <Col lg={{size: 4, offset: 2}} md={{size: 10, offset:1}}>
             <h3>Anodized</h3>
-            <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Finishes.Anodized)}</ul>
+            <ul className = {classes.materialFinishes}>
+              {listItems(copy.Manufacturing.Services.Machining.Finishes.Anodized)}
+            </ul>
           </Col>
           <Col lg="4" md={{size:10, offset:1}}>
             <h3>Other</h3>
-            <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Finishes.Other)}</ul>
+            <ul className = {classes.materialFinishes}>
+              {listItems(copy.Manufacturing.Services.Machining.Finishes.Other)}
+            </ul>
           </Col>
         </Row>
+      </Container>
+      <Container>
+        <h2>Materials (3D Printing)</h2>
+          <ul className = {classes.materialFinishes}>
+            {listItems(copy.Manufacturing.Services.Printing.Materials)}
+          </ul>
+      </Container>
+      <Container>
+        <h2>Materials (Laser Cutting)</h2>
+          Maybe put something here about how some materials can be engraved but not cut in the list
+          <ul className = {classes.materialFinishes}>
+            {listItems(copy.Manufacturing.Services.LaserCutting.Materials)}
+          </ul>
+      </Container>
+      <Container>
+        <h2>Materials (Welding)</h2>
+          <ul className = {classes.materialFinishes}>
+            {listItems(copy.Manufacturing.Services.Welding.Materials)}
+          </ul>
       </Container>
     </div>
   );

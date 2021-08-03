@@ -1,7 +1,8 @@
 Run `yarn build` and `firebase deploy` to deploy the app to: presstamfg.web.app
 
 ToDo:
-- fix logo: Propellor, Gear with lightning in it, propellor out of lightning bolts (two that are symmetric offset by 90deg and slightly swept back), 
+
+- make cards for manufacturing page have the title text all at the same level, center the images and figure out buttons after that
 - Set up pages for "Our Shop", "Capabilities" and "Contact"
 - Get pics from current site
 - Fill out using the copy from src/copy.json

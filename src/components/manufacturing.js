@@ -35,7 +35,7 @@ function Manufacturing() {
               <CardBody>
                 <CardTitle tag="h3">Machining</CardTitle>
                 <CardText>{copy.Manufacturing.Services.Machining.Statement}</CardText>
-                <Button>Button</Button>
+                <Button>Find out more</Button>
               </CardBody>
             </Card>
           </Col>
@@ -45,7 +45,7 @@ function Manufacturing() {
               <CardBody>
                 <CardTitle tag="h3">3D Printing</CardTitle>
                 <CardText>{copy.Manufacturing.Services.Printing.Statement}</CardText>
-                <Button>Button</Button>
+                <Button>Find out more</Button>
               </CardBody>
             </Card>
           </Col>
@@ -55,7 +55,7 @@ function Manufacturing() {
               <CardBody>
                 <CardTitle tag="h3">Laser Cutting</CardTitle>
                 <CardText>{copy.Manufacturing.Services.LaserCutting.Statement}</CardText>
-                <Button>Button</Button>
+                <Button>Find out more</Button>
               </CardBody>
             </Card>
           </Col>
@@ -65,7 +65,7 @@ function Manufacturing() {
               <CardBody>
                 <CardTitle tag="h3">Welding</CardTitle>
                 <CardText>{copy.Manufacturing.Services.Welding.Statement}</CardText>
-                <Button>Button</Button>
+                <Button>Find out more</Button>
               </CardBody>
             </Card>
           </Col>

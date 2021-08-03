@@ -13,3 +13,5 @@ ToDo:
 - Maybe instead of having a seperate "Design" page break the flow up so it's more of the first half of egineering: i.e. inspiration --> ideation --> implementation, repeat. Ideation and refinement would both fall under engineering. inspiration works well but it's hard to make into distinct categories
 - maybe find some way to convey that keeping the production in-house leads to discovering/improving problems early on and the difference between product modifications and complete reworks (both able to happen more effectively in-house)
 - what would the user story be for someone coming in at any point of the cycle and what does our "consulting service" hourly/weekly/etc. get billed out as.
+
+-maybe for manufacturing services you can hover over any of the "machining", "3d printing" etc. cards and it grows. Also when you click it materials and whatever shows up under it where it's all bubbled together with the card as a tab

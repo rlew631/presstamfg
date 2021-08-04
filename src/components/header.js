@@ -1,6 +1,7 @@
 import logo from '../logo.svg';
 import {createUseStyles} from 'react-jss';
 import {Link} from "react-router-dom";
+import {Button} from 'reactstrap';
 
 const useStyles = createUseStyles({
   main: {
@@ -21,8 +22,8 @@ const useStyles = createUseStyles({
     flexWrap: 'wrap',
     justifyContent: 'center',
   },
-  link: {
-    padding: '1em'
+  button: {
+    margin: '0.25em'
   }
 });
 
@@ -35,11 +36,19 @@ function Header() {
       </div>
       <div className={classes.links}>
         <nav>
-          <Link to="/"className={classes.link}>Home</Link>
+          <Link to="/">
+            <Button className={classes.button}>Home</Button>
+          </Link>
           {/*<Link to="/design"className={classes.link}>Design</Link>*/}
-          <Link to="/engineeringDesign"className={classes.link}>Engineering Design</Link>
-          <Link to="/manufacturing"className={classes.link}>Manufacturing</Link>
-          <Link to="/contact"className={classes.link}>Contact</Link>
+          <Link to="/engineeringDesign">
+            <Button className={classes.button}>Engineering Design</Button>
+          </Link>
+          <Link to="/manufacturing">
+            <Button className={classes.button}>Manufacturing</Button>
+          </Link>
+          <Link to="/contact">
+            <Button className={classes.button}>Contact</Button>
+          </Link>
         </nav>
       </div>
     </header>

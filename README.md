@@ -2,6 +2,7 @@ Run `yarn build` and `firebase deploy` to deploy the app to: presstamfg.web.app
 
 ToDo:
 - Get pics from current site
+- change logo
 - Go through unused copy in src/copy.json
 - What would the user story be for someone coming in at any point of the cycle and what does our "consulting service" hourly/weekly/etc. get billed out as.
 

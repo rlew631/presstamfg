@@ -29,18 +29,23 @@
       "Circuit Design"]
   }
 },
-"Engineering":{
-  "Statement": "We specialize in design for manufacture / servicability and top of the line analysis.",
+"EngineeringDesign":{
+  "Statement": "We can help bring your idea to life with our skilled design services. We specialize in design for manufacture / servicability and top of the line analysis.",
   "Services":{
     "Mechanical":[
       "CAD (Computer Aided Design)",
       "FEA (Finite Element Analysis)",
       "CFD (Computational Fluid Dynamics)",
-      "FMEA (Failure Mode and Effect Analysis)"],
+      "FMEA (Failure Mode and Effect Analysis)",
+      "Design for Manufacturability",
+      "Design for Asembly",
+      "Design for Servicability"],
     "Electrical":[
       "Firmware Programming",
       "PCB Design",
-      "Design for PCB Assembly"]
+      "Design for PCB Assembly",
+      "Product Development",
+      "Circuit Design"]
   }
 },
 "Manufacturing":{

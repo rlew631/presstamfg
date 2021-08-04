@@ -36,8 +36,8 @@ function Header() {
       <div className={classes.links}>
         <nav>
           <Link to="/"className={classes.link}>Home</Link>
-          <Link to="/design"className={classes.link}>Design</Link>
-          <Link to="/engineering"className={classes.link}>Engineering</Link>
+          {/*<Link to="/design"className={classes.link}>Design</Link>*/}
+          <Link to="/engineeringDesign"className={classes.link}>Engineering Design</Link>
           <Link to="/manufacturing"className={classes.link}>Manufacturing</Link>
           <Link to="/contact"className={classes.link}>Contact</Link>
         </nav>

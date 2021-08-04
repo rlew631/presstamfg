@@ -17,4 +17,5 @@ ToDo:
   - make cards have the title text all at the same level, center the images and figure out buttons after that
 
   - Contact:
-    - Figure out how to reduce the space between the "key" and "value" columns 
+    - Figure out how to reduce the space between the "key" and "value" columns. possibly make the info on the left half only take up 1/3ish of the real estate
+    - Bottom align the contact info on the left side of the page

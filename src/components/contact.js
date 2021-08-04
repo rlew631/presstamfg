@@ -5,6 +5,12 @@ import copy from '../copy.json';
 const useStyles = createUseStyles({
   info: {
     "align-self": "flex-end"
+  },
+  colKey: {
+    textAlign: 'left'
+  },
+  colValue: {
+    textAlign: 'left'
   }
 });
 
@@ -16,13 +22,18 @@ function Contact() {
       <Container>
         <Row className={classes.info}>
           <Col lg={{size: 5, offset: 1}}>
-            <div align="left">
-              Email: {copy.Contact.Email}
-              <br></br>
-              Phone: {copy.Contact.Phone}
-              <br></br>
-              Address: {copy.Contact.Address}
-            </div>
+            <Row>
+              <Col className={classes.colKey}>Email: </Col>
+              <Col className={classes.colValue}>{copy.Contact.Email}</Col>
+            </Row>
+            <Row>
+              <Col className={classes.colKey}>Phone: </Col>
+              <Col className={classes.colValue}>{copy.Contact.Phone}</Col>
+            </Row>
+            <Row>
+              <Col className={classes.colKey}>Address: </Col>
+              <Col className={classes.colValue}>{copy.Contact.Address}</Col>
+            </Row>
           </Col>
           <Col lg="5">
             <h1>Put in an inquiry form here</h1>
@@ -30,7 +41,6 @@ function Contact() {
             line two <br></br>
             line three <br></br>
             line four <br></br>
-            line five <br></br>
           </Col>
         </Row>
       </Container>

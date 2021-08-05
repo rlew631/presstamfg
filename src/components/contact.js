@@ -38,7 +38,7 @@ class ContactForm extends React.Component {
                   </div>
                   <div>
                     <form
-                      action="https://formspree.io/f/xzbkyopb"
+                      action="https://formspree.io/f/xvodwvwz"
                       method="POST"
                       className="contactForm"
                       onSubmit={this.submitForm}

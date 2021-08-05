@@ -3,7 +3,7 @@
   "WhatWeDoStatement":"Located strategically in the bay area Pressta is a premiere engineering, design and precision manufacturing facility specializing in R&D, prototyping and assembly. No matter what part of the product design lifecycle Pressta can help bring your ideas to life!",
   "AboutUsStatement":"Pressta currently consists of 5 full time employees with a diverse set of skills ranging from graphic design to welding. Being small allows us to give our clients our full attention and keep them in the loop as their project comes together.",
   "WhyUsePresstaStatement":"We can help with any stage of your product design process from inspiration to ideation to implementation. We all know that finding new vendors isn't easy. Whether you're looking to just test the waters or commit long-term our team will stand by our work and do whatever it takes to ensure your project is a success.",
-  "IndustriesServed":"Pressta has worked with companies in the aerospace, automotive, energy and research sectors.",
+  "IndustriesStatement":"Pressta has worked with companies in the aerospace, automotive, energy and research sectors.",
   "ClassificationsCertifications":"Pressta is ITAR registered, a small business and have begun the process of becoming ISO-9001 / AS9100D certified.  ",
   "Services":{
     "Design":"Our skilled designers are some of the best in the business. They can help any stage of the process from turning your concept into a reality or applying that final polish.",
@@ -40,7 +40,7 @@
   "Statement": "We specialize in CNC machined parts, gaskets and welded assemblies.",
   "Services":{
     "Machining":{
-      "Statement":"We can produce turned and milled parts using our in-house engine lathe and CNC",
+      "Statement":"We can produce turned and milled parts using our in-house engine lathe and 4-axis CNC Mill",
       "Materials":{
         "Steel":[
           "Mild (A36)",
@@ -110,11 +110,11 @@
         }
     },
     "Printing":{
-      "Statement":"We have both SLA and FDM 3D printers to quickly prototype plastic components.",
+      "Statement":"We have both SLA and FDM 3D printers to prototype plastic components.",
       "Materials":["Resin", "ABS", "PLA", "Nylon", "PETG", "Carbon Fiber Reinforced", "PVA"]
     },
     "LaserCutting":{
-      "Statement":"We frequently use laser cutting to produce gaskets and stencils/graphics.",
+      "Statement":"We frequently use laser cutting to produce gaskets and stencils / graphics.",
       "Materials":["Most plastics","Wood","Metal","Glass"]
     },
     "Welding":{

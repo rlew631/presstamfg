@@ -6,10 +6,16 @@ import {
   Button
 } from 'reactstrap';
 import copy from '../copy.json';
+
 import haas from "../assets/Haas.png";
 import stratysis from "../assets/Stratysis.png";
 import trotec from "../assets/Trotec.png";
 import miller from "../assets/Miller.png";
+
+import aluminum from "../assets/Aluminum.svg";
+import steel from "../assets/Steel.svg"
+import brass from "../assets/Brass.svg";
+import plastic from "../assets/Plastic.svg"
 
 function listItems(data){
   return(data.map((d) => <li>{d}</li>));
@@ -21,6 +27,9 @@ const useStyles = createUseStyles({
   },
   card: {
     height:"100%"
+  },
+  materialIcon: {
+    height:"1em" //still needs to be raised slightly to line up with heading but it's getting better
   },
   cnc: {
     "flex-wrap":"wrap"
@@ -84,21 +93,21 @@ function Manufacturing() {
             <h2>Materials (Machining)</h2>
             Maybe put in something saying to contact us for questions regarding titanium and other exotic metals.
             <Row>
-              <Col>
-                <h3>Steel</h3>
+              <Col md="6">
+                <h3><img src={steel} className={classes.materialIcon}></img> Steel</h3>
                 <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Steel)}</ul>
               </Col>
-              <Col>
-                <h3>Aluminum</h3>
+              <Col md="6">
+                <h3><img src={aluminum} className={classes.materialIcon}></img> Aluminum</h3>
                 <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Aluminum)}</ul>
               </Col>
-              <Col>
-                <h3>Brass and Bronze</h3>
+              <Col md="6">
+                <h3><img src={brass} className={classes.materialIcon}></img> Brass and Bronze</h3>
                 <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.BrassBronze)}</ul>
               </Col>
-              <Col>
-                <h3>Plastics</h3>
-                <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Plastics)}</ul>
+              <Col md="6">
+                <h3><img src={plastic} className={classes.materialIcon}></img> Plastic</h3>
+                <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Plastic)}</ul>
               </Col>
             </Row>
             </Col>

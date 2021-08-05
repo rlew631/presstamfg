@@ -16,6 +16,7 @@ ToDo:
 - Manufacturing:
   - cycle through the materials when clicking CNC, laser cutting etc.
   - make cards have the title text all at the same level, center the images and figure out buttons after that
+  - material color icons are set slightly low
 
   - Contact:
     - Figure out how to reduce the space between the "key" and "value" columns. possibly make the info on the left half only take up 1/3ish of the real estate

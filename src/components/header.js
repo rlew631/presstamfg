@@ -41,8 +41,8 @@ function Header() {
             <Button className={classes.button}>Home</Button>
           </Link>
           {/*<Link to="/design"className={classes.link}>Design</Link>*/}
-          <Link to="/engineeringDesign">
-            <Button className={classes.button}>Engineering Design</Button>
+          <Link to="/design">
+            <Button className={classes.button}>Design</Button>
           </Link>
           <Link to="/manufacturing">
             <Button className={classes.button}>Manufacturing</Button>

@@ -2,9 +2,9 @@
 "Home":{
   "WhatWeDoStatement":"Located strategically in the bay area Pressta is a premiere engineering, design and precision manufacturing facility specializing in R&D, prototyping and assembly. No matter what part of the product design lifecycle Pressta can help bring your ideas to life!",
   "AboutUsStatement":"Pressta currntly consists of 5 full time employees with a diverse set of skills ranging from graphic design to welding. Being small allows us to give our clients our full attention and keep them in the loop as their project comes together.",
-  "WhyUsePresstaStatement":"We all know that finding new vendors isn't easy. Whether you're looking to just test the waters or commit long-term our team will stand by our work and do whatever it takes to ensure your project is a success.",
+  "WhyUsePresstaStatement":"We can help with any stage of your product design process from inspiration to ideation to implementation. We all know that finding new vendors isn't easy. Whether you're looking to just test the waters or commit long-term our team will stand by our work and do whatever it takes to ensure your project is a success.",
   "IndustriesServed":"Pressta has worked with companies in the aerospace, automotive, energy and research sectors.",
-  "ClassificationsCertifications":"Pressta is ITAR registered, a small business and have begun the process of becoming ISO-9001 / AS9100D certified.\brOur",
+  "ClassificationsCertifications":"Pressta is ITAR registered, a small business and have begun the process of becoming ISO-9001 / AS9100D certified.  ",
   "Services":{
     "Design":"Our skilled designers are some of the best in the business. They can help any stage of the process from turning your concept into a reality or applying that final polish.",
     "Engineering":"We will work with you to make sure your project is completed in-spec and on time. We have an extensive background designing products for commercial and consumer use",
@@ -18,18 +18,6 @@
   }
 },
 "Design":{
-  "Statement":"We can help bring your idea to life with our skilled design services.",
-  "Services":{
-    "Mechanical":[
-      "Design for Manufacturability",
-      "Design for Asembly",
-      "Design for Servicability"],
-    "Electrical":[
-      "Product Development",
-      "Circuit Design"]
-  }
-},
-"EngineeringDesign":{
   "Statement": "We can help bring your idea to life with our skilled design services. We specialize in design for manufacture / servicability and top of the line analysis.",
   "Services":{
     "Mechanical":[

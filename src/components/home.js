@@ -2,10 +2,6 @@ import {createUseStyles} from 'react-jss';
 import { Container, Row, Col } from 'reactstrap';
 import copy from '../copy.json';
 
-function listItems(data){
-  return(data.map((d) => <li>{d}</li>));
-}
-
 const useStyles = createUseStyles({
   topCards: {
     textAlign: 'left'
@@ -48,7 +44,7 @@ function Home() {
 
       <Container>
         <br></br><br></br><br></br><br></br>
-        <h2>Services</h2>
+        <h2>Services (might get rid of this section)</h2>
         <Row justify="center">
           <Col lg={{size: 3, offset: 1.5}} md={{size: 10, offset:1}}>
             <h3>Design</h3>

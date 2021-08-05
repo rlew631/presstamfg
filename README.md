@@ -19,6 +19,5 @@ ToDo:
 
   - Contact:
     - Figure out how to reduce the space between the "key" and "value" columns. possibly make the info on the left half only take up 1/3ish of the real estate
-    - Bottom align the contact info on the left side of the page
     - make the contact info into a grid so everything aligns properly
     - update form so it's using reactstrap instead of bootstrap

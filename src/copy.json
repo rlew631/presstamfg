@@ -1,7 +1,7 @@
 {
 "Home":{
   "WhatWeDoStatement":"Located strategically in the bay area Pressta is a premiere engineering, design and precision manufacturing facility specializing in R&D, prototyping and assembly. No matter what part of the product design lifecycle Pressta can help bring your ideas to life!",
-  "AboutUsStatement":"Pressta currntly consists of 5 full time employees with a diverse set of skills ranging from graphic design to welding. Being small allows us to give our clients our full attention and keep them in the loop as their project comes together.",
+  "AboutUsStatement":"Pressta currently consists of 5 full time employees with a diverse set of skills ranging from graphic design to welding. Being small allows us to give our clients our full attention and keep them in the loop as their project comes together.",
   "WhyUsePresstaStatement":"We can help with any stage of your product design process from inspiration to ideation to implementation. We all know that finding new vendors isn't easy. Whether you're looking to just test the waters or commit long-term our team will stand by our work and do whatever it takes to ensure your project is a success.",
   "IndustriesServed":"Pressta has worked with companies in the aerospace, automotive, energy and research sectors.",
   "ClassificationsCertifications":"Pressta is ITAR registered, a small business and have begun the process of becoming ISO-9001 / AS9100D certified.  ",
@@ -18,7 +18,7 @@
   }
 },
 "Design":{
-  "Statement": "We can help bring your idea to life with our skilled design services. We specialize in design for manufacture / servicability and top of the line analysis.",
+  "Statement": "We can help bring your idea to life with our skilled design services. We specialize in design for manufacturability / servicability and top of the line analysis.",
   "Services":{
     "Mechanical":[
       "CAD (Computer Aided Design)",
@@ -96,7 +96,7 @@
           "Pickling",
           "Electropolishing",
           "Vapor Polishing",
-          "Mirror Polishing (Non-Directional with a very high degree of image clarity, typically 0.05 µm Ra or less. Sample may be required)",
+          "Mirror Polishing",
           "Powder Coating",
           "Bead Blast",
           "Chromate Conversion Coating",

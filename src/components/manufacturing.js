@@ -21,6 +21,9 @@ const useStyles = createUseStyles({
   },
   card: {
     height:"100%"
+  },
+  cnc: {
+    "flex-wrap":"wrap"
   }
 });
 
@@ -75,42 +78,46 @@ function Manufacturing() {
           </Col>
         </Row>
       </Container>
-      <Container>
-      <h2>Materials (Machining)</h2>
-      Maybe put in something saying to contact us for questions regarding titanium and other exotic metals.
+      <Container className={classes.cnc}>
         <Row>
-          <Col>
-            <h3>Steel</h3>
-            <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Steel)}</ul>
-          </Col>
-          <Col>
-            <h3>Aluminum</h3>
-            <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Aluminum)}</ul>
-          </Col>
-          <Col>
-            <h3>Brass and Bronze</h3>
-            <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.BrassBronze)}</ul>
-          </Col>
-          <Col>
-            <h3>Plastics</h3>
-            <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Plastics)}</ul>
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <h2>Finishes</h2>
-        <Row justify="center">
-          <Col lg={{size: 4, offset: 2}} md={{size: 10, offset:1}}>
-            <h3>Anodized</h3>
-            <ul className = {classes.materialFinishes}>
-              {listItems(copy.Manufacturing.Services.Machining.Finishes.Anodized)}
-            </ul>
-          </Col>
-          <Col lg="4" md={{size:10, offset:1}}>
-            <h3>Other</h3>
-            <ul className = {classes.materialFinishes}>
-              {listItems(copy.Manufacturing.Services.Machining.Finishes.Other)}
-            </ul>
+          <Col md="6">
+            <h2>Materials (Machining)</h2>
+            Maybe put in something saying to contact us for questions regarding titanium and other exotic metals.
+            <Row>
+              <Col>
+                <h3>Steel</h3>
+                <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Steel)}</ul>
+              </Col>
+              <Col>
+                <h3>Aluminum</h3>
+                <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Aluminum)}</ul>
+              </Col>
+              <Col>
+                <h3>Brass and Bronze</h3>
+                <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.BrassBronze)}</ul>
+              </Col>
+              <Col>
+                <h3>Plastics</h3>
+                <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Plastics)}</ul>
+              </Col>
+            </Row>
+            </Col>
+            <Col md="6">
+            <h2>Finishes</h2>
+            <Row justify="center">
+              <Col lg={{size: 4, offset: 2}} md={{size: 10, offset:1}}>
+                <h3>Anodized</h3>
+                <ul className = {classes.materialFinishes}>
+                  {listItems(copy.Manufacturing.Services.Machining.Finishes.Anodized)}
+                </ul>
+              </Col>
+              <Col lg="4" md={{size:10, offset:1}}>
+                <h3>Other</h3>
+                <ul className = {classes.materialFinishes}>
+                  {listItems(copy.Manufacturing.Services.Machining.Finishes.Other)}
+                </ul>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>

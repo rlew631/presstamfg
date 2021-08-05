@@ -28,7 +28,7 @@ class ContactForm extends React.Component {
     const { status } = this.state;
     return (
       <section className="paralax-mf footer-paralax bg-image sect-mt4 route">
-        <h2 className="title-left">Send A Message</h2>
+        <h2>Send A Message</h2>
         <div>
           <form
             action="https://formspree.io/f/xvodwvwz"
@@ -129,6 +129,7 @@ function Contact() {
       <Container>
         <Row>
           <Col lg={{size: 3, offset: 1}} className={classes.info}>
+            <h2>Contact Us</h2>
             <Row>
               <Col className={classes.colKey}>Email: </Col>
               <Col className={classes.colValue}>{copy.Contact.Email}</Col>

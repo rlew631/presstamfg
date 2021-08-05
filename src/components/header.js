@@ -21,6 +21,7 @@ const useStyles = createUseStyles({
     flexBasis: 0,
     flexWrap: 'wrap',
     justifyContent: 'center',
+    "align-self": "center"
   },
   button: {
     margin: '0.25em'

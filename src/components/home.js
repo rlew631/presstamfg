@@ -40,6 +40,8 @@ function Home() {
           <Col lg={{size: 10, offset: 1}}>
             <h1>Classifications and Certifications</h1>
             {copy.Home.ClassificationsCertifications}
+            <br></br>
+            We are registered on SAM.gov as Fresh Press LLC and DUNS / CAGE codes are 118160742 and 92SM7 respecively.
           </Col>
         </Row>
       </Container>

@@ -20,8 +20,8 @@ function Contact() {
   return(
     <div>
       <Container>
-        <Row className={classes.info}>
-          <Col lg={{size: 5, offset: 1}}>
+        <Row>
+          <Col lg={{size: 3, offset: 1}} className={classes.info}>
             <Row>
               <Col className={classes.colKey}>Email: </Col>
               <Col className={classes.colValue}>{copy.Contact.Email}</Col>
@@ -35,7 +35,7 @@ function Contact() {
               <Col className={classes.colValue}>{copy.Contact.Address}</Col>
             </Row>
           </Col>
-          <Col lg="5">
+          <Col lg="7">
             <h1>Put in an inquiry form here</h1>
             line one <br></br>
             line two <br></br>

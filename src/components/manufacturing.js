@@ -16,6 +16,9 @@ import miller from "../assets/Miller.png";
 const useStyles = createUseStyles({
   card: {
     height:"100%"
+  },
+  statement: {
+    textAlign: 'left'
   }
 });
 
@@ -23,9 +26,11 @@ function Manufacturing() {
   const classes = useStyles();
   return (
     <nav>
-      <h1>What We Do</h1>
-      {copy.Manufacturing.Statement}
       <Container>
+        <br></br>
+        <p className = {classes.statement}>
+          {copy.Manufacturing.Statement}
+        </p>
         <h2>Services</h2>
         <Row justify="stretch"> {/* doesn't seem to work like flexbox stretch */}
           <Col lg="3" md="6">

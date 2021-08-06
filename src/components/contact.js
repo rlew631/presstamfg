@@ -28,6 +28,7 @@ class ContactForm extends React.Component {
     const { status } = this.state;
     return (
       <section className="paralax-mf footer-paralax bg-image sect-mt4 route">
+        <br></br>
         <h2>Send A Message</h2>
         <div>
           <form

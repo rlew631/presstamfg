@@ -10,32 +10,35 @@ const useStyles = createUseStyles({
   services: {
     textAlign: 'left'
   },
+  statement: {
+    textAlign: 'left'
+  }
 });
 
 function Design() {
   const classes = useStyles();
   return (
-    <div>
-      <h1>What We Do</h1>
+    <Container>
+    <br></br>
+    <p className = {classes.statement}>
       {copy.Design.Statement}
-      <Container>
-      <h2>Services</h2>
-        <Row>
-          <Col lg="3" md={{size: 10, offset:1}}>
-            <h3>Mechanical</h3>
-            <ul className = {classes.services}>{listItems(copy.Design.Services.Mechanical)}</ul>
-          </Col>
-          <Col lg="3" md={{size:10, offset:1}}>
-            <h3>Electrical</h3>
-            <ul className = {classes.services}>{listItems(copy.Design.Services.Electrical)}</ul>
-          </Col>
-          <Col lg="3" md={{size:10, offset:1}}>
-            <h3>Product Design</h3>
-            <ul className = {classes.services}>{listItems(copy.Design.Services.Design)}</ul>
-          </Col>
-        </Row>
-      </Container>
-    </div>
+    </p>
+    <h2>Services</h2>
+      <Row>
+        <Col lg="3" md={{size: 10, offset:1}}>
+          <h3>Mechanical</h3>
+          <ul className = {classes.services}>{listItems(copy.Design.Services.Mechanical)}</ul>
+        </Col>
+        <Col lg="3" md={{size:10, offset:1}}>
+          <h3>Electrical</h3>
+          <ul className = {classes.services}>{listItems(copy.Design.Services.Electrical)}</ul>
+        </Col>
+        <Col lg="3" md={{size:10, offset:1}}>
+          <h3>Product Design</h3>
+          <ul className = {classes.services}>{listItems(copy.Design.Services.Design)}</ul>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

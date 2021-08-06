@@ -1,10 +1,8 @@
-import {Link} from "react-router-dom";
 import {createUseStyles} from 'react-jss';
 import { Container, Row, Col } from 'reactstrap';
 import {
   Card, CardImg, CardText, CardBody,
   CardTitle, /*CardSubtitle,*/
-  Button
 } from 'reactstrap';
 import copy from '../copy.json';
 
@@ -34,7 +32,7 @@ const useStyles = createUseStyles({
 function ManufacturingMachining() {
   const classes = useStyles();
   return (
-    <nav>
+    <div>
       <h1>What We Do</h1>
       Maybe put in something saying to contact us for questions regarding titanium and other exotic metals.
       <Container>
@@ -45,9 +43,6 @@ function ManufacturingMachining() {
               <CardBody>
                 <CardTitle tag="h3">Machining</CardTitle>
                 <CardText>{copy.Manufacturing.Services.Machining.Statement}</CardText>
-                <Link to="/manufacturing-machining">
-                  <Button>Find out more</Button>
-                </Link>
               </CardBody>
             </Card>
           </Col>
@@ -95,7 +90,7 @@ function ManufacturingMachining() {
           </Col>
         </Row>
       </Container>
-    </nav>
+    </div>
   );
 }
 

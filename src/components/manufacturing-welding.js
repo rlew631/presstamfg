@@ -1,10 +1,8 @@
-import {Link} from "react-router-dom";
 import {createUseStyles} from 'react-jss';
 import { Container, Row, Col } from 'reactstrap';
 import {
   Card, CardImg, CardText, CardBody,
   CardTitle, /*CardSubtitle,*/
-  Button
 } from 'reactstrap';
 import copy from '../copy.json';
 
@@ -23,7 +21,7 @@ const useStyles = createUseStyles({
 function ManufacturingWelding() {
   const classes = useStyles();
   return (
-    <nav>
+    <div>
       <h1>What We Do</h1>
       {copy.Manufacturing.Statement}
       <Container>
@@ -34,9 +32,6 @@ function ManufacturingWelding() {
               <CardBody>
                 <CardTitle tag="h3">Welding</CardTitle>
                 <CardText>{copy.Manufacturing.Services.Welding.Statement}</CardText>
-                <Link to="/manufacturing-welding">
-                  <Button>Find out more</Button>
-                </Link>
               </CardBody>
             </Card>
           </Col>
@@ -48,7 +43,7 @@ function ManufacturingWelding() {
           </Col>
         </Row>
       </Container>
-    </nav>
+    </div>
   );
 }
 

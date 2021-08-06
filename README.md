@@ -1,7 +1,8 @@
 Run `yarn build` and `firebase deploy` to deploy the app to: presstamfg.web.app
 
 ToDo:
-- Get pics from current site
+- Crop and edit part pics from folder on the desktop
+- get part pics from the PDF deck sent to stu (should be in google drive)
 - change logo
 - Add CAGE and DUNS
 - Go through unused copy in src/copy.json
@@ -22,7 +23,7 @@ ToDo:
   - make cards have the title text all at the same level, center the images and figure out buttons after that
   - all sub categories still have the "Find out more" button. do I want to have that go back or get rid of the button?
   - Machining:
-    - material color icons are set slightly low
+    - material color icons are set slightly low and the one with aluminum shouldn't pop on top with page resize. figure out min width for that card using "em" or something
 
   - Contact:
     - Figure out how to reduce the space between the "key" and "value" columns. possibly make the info on the left half only take up 1/3ish of the real estate

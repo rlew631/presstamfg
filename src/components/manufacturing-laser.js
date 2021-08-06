@@ -1,10 +1,8 @@
-import {Link} from "react-router-dom";
 import {createUseStyles} from 'react-jss';
 import { Container, Row, Col } from 'reactstrap';
 import {
   Card, CardImg, CardText, CardBody,
   CardTitle, /*CardSubtitle,*/
-  Button
 } from 'reactstrap';
 import copy from '../copy.json';
 
@@ -34,9 +32,6 @@ function ManufacturingLaser() {
               <CardBody>
                 <CardTitle tag="h3">Laser Cutting</CardTitle>
                 <CardText>{copy.Manufacturing.Services.LaserCutting.Statement}</CardText>
-                <Link to="/manufacturing-laser">
-                  <Button>Find out more</Button>
-                </Link>
               </CardBody>
             </Card>
           </Col>

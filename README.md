@@ -6,6 +6,7 @@ ToDo:
 - Add CAGE and DUNS
 - Go through unused copy in src/copy.json
 - What would the user story be for someone coming in at any point of the cycle and what does our "consulting service" hourly/weekly/etc. get billed out as.
+- Does it make sense to have the images all hosted as files directly in firebase's content storage system? would that help load times/printability?
 
 - Header
   - Buttons need to be left aligned

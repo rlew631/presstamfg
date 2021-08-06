@@ -5,11 +5,6 @@
   "WhyUsePresstaStatement":"We can help with any stage of your product design process from inspiration to ideation to implementation. We all know that finding new vendors isn't easy. Whether you're looking to just test the waters or commit long-term our team will stand by our work and do whatever it takes to ensure your project is a success.",
   "IndustriesStatement":"Pressta has worked with companies in the aerospace, automotive, energy and research sectors.",
   "ClassificationsCertifications":"Pressta is ITAR registered, a small business and has begun the process of becoming ISO-9001 / AS9100D certified.  ",
-  "Services":{
-    "Design":"Our skilled designers are some of the best in the business. They can help any stage of the process from turning your concept into a reality or applying that final polish.",
-    "Engineering":"We will work with you to make sure your project is completed in-spec and on time. We have an extensive background designing products for commercial and consumer use",
-    "Manufacturing":"We are able to manufacture most metal and plastic parts with our in-house machine shop and finishing capabilities."
-  },
   "BottomCards":{
     "AdvancedMachinery":"We use modern high speed machining strategies to turn jobs around quicker than the competition.",
     "OnTimeEverytime":"Pressta MFG’s combined 21 years of experience in metalworking and fabrication helps keep projects on track and allows us to foresee potential issues before they come up.",
@@ -18,7 +13,7 @@
   }
 },
 "Design":{
-  "Statement": "We can help bring your idea to life with our skilled design services. We specialize in design for manufacturability / servicability and top of the line analysis. Our holistic design approach gets you a more polished final product with fewer revisions and reworks.",
+  "Statement": "We can help bring your idea to life with our expert design team. They can help any stage of the process from turning your concept into a reality or applying that final polish. We specialize in design for manufacturability / servicability and top of the line analysis. Our holistic design approach gets you a more refined final product with fewer revisions and reworks.",
   "Services":{
     "Mechanical":[
       "CAD (Computer Aided Design)",
@@ -42,7 +37,7 @@
   }
 },
 "Manufacturing":{
-  "Statement": "We specialize in CNC machined parts, gaskets and welded assemblies.",
+  "Statement": "We specialize in CNC machined parts, gaskets and welded assemblies. We are able to manufacture most metal and plastic parts with our in-house machine shop and finishing capabilities.",
   "Services":{
     "Machining":{
       "Statement":"We can produce turned and milled parts using our in-house engine lathe and 4-axis CNC Mill",

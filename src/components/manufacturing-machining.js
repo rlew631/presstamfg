@@ -22,10 +22,17 @@ const useStyles = createUseStyles({
     textAlign: 'left'
   },
   materialIcon: {
-    height:"1em" //still needs to be raised slightly to line up with heading but it's getting better
+    height:"1em", //still needs to be raised slightly to line up with heading but it's getting better
+    minWidth: 0
+  },
+  aluminum: {
+    flexShrink: 0,
+    whiteSpace: "nowrap",
+    overflow: "hidden",
+    textOverflow: "ellipsis"
   },
   cnc: {
-    "flex-wrap":"wrap"
+    flexWrap:"wrap"
   }
 });
 
@@ -33,8 +40,6 @@ function ManufacturingMachining() {
   const classes = useStyles();
   return (
     <div>
-      <h1>What We Do</h1>
-      Maybe put in something saying to contact us for questions regarding titanium and other exotic metals.
       <Container>
         <Row justify="stretch"> {/* doesn't seem to work like flexbox stretch */}
           <Col lg="3" md="6">
@@ -49,14 +54,17 @@ function ManufacturingMachining() {
           <Col>
             <Row>
               <Col lg="6" md="12">
-                <h2>Materials (Machining)</h2>
+                <h2>Materials</h2>
+                Contact us for questions regarding titanium and other exotic metals.
                 <Row>
                   <Col md="6">
                     <h3><img src={steel} className={classes.materialIcon}></img> Steel</h3>
                     <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Steel)}</ul>
                   </Col>
                   <Col md="6">
-                    <h3><img src={aluminum} className={classes.materialIcon}></img> Aluminum</h3>
+                    <h3 className={classes.Aluminum}>
+                      <img src={aluminum} className={classes.materialIcon}></img> Aluminum
+                    </h3>
                     <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Aluminum)}</ul>
                   </Col>
                   <Col md="6">
@@ -68,8 +76,8 @@ function ManufacturingMachining() {
                     <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Plastic)}</ul>
                   </Col>
                 </Row>
-                </Col>
-                <Col lg="6" md="12">
+              </Col>
+              <Col lg="6" md="12">
                 <h2>Finishes</h2>
                 <Row justify="center">
                   <Col lg={{size: 4, offset: 2}} md="6">

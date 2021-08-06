@@ -22,8 +22,6 @@ function ManufacturingPrinting() {
   const classes = useStyles();
   return (
     <div>
-      <h1>What We Do</h1>
-      {copy.Manufacturing.Statement}
       <Container>
         <Row justify="stretch"> {/* doesn't seem to work like flexbox stretch */}
           <Col lg="3" md="6">
@@ -36,7 +34,7 @@ function ManufacturingPrinting() {
             </Card>
           </Col>
           <Col>
-            <h2>Materials (3D Printing)</h2>
+            <h2>Materials</h2>
             <ul className = {classes.materialFinishes}>
               {listItems(copy.Manufacturing.Services.Printing.Materials)}
             </ul>

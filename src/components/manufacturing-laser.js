@@ -22,8 +22,6 @@ function ManufacturingLaser() {
   const classes = useStyles();
   return (
     <div>
-      <h1>What We Do</h1>
-      Maybe put something here about how some materials can be engraved but not cut in the list
       <Container>
         <Row justify="stretch"> {/* doesn't seem to work like flexbox stretch */}
           <Col lg="3" md="6">
@@ -36,7 +34,8 @@ function ManufacturingLaser() {
             </Card>
           </Col>
           <Col>
-            <h2>Materials (Laser Cutting)</h2>
+            <h2>Materials</h2>
+            Some materials listed can be engraved but not cut, contact us to find out more
             <ul className = {classes.materialFinishes}>
               {listItems(copy.Manufacturing.Services.LaserCutting.Materials)}
             </ul>

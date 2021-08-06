@@ -4,6 +4,10 @@ import Home from './components/home'
 // import Design from './components/design';
 import Design from './components/design';
 import Manufacturing from './components/manufacturing';
+import ManufacturingMachining from './components/manufacturing-machining';
+import ManufacturingPrinting from './components/manufacturing-printing';
+import ManufacturingLaser from './components/manufacturing-laser';
+import ManufacturingWelding from './components/manufacturing-welding';
 import Contact from './components/contact';
 import {
   BrowserRouter as Router,
@@ -29,6 +33,10 @@ function App() {
             {/*<Route path="/design" component={Design}></Route>*/}
             <Route path="/design" component={Design}></Route>
             <Route path="/manufacturing" component={Manufacturing}></Route>
+            <Route path="/manufacturing-machining" component={ManufacturingMachining}></Route>
+            <Route path="/manufacturing-printing" component={ManufacturingPrinting}></Route>
+            <Route path="/manufacturing-laser" component={ManufacturingLaser}></Route>
+            <Route path="/manufacturing-welding" component={ManufacturingWelding}></Route>
             <Route path="/contact" component={Contact}></Route>
           </Switch>
         </body>

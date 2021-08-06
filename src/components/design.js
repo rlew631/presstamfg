@@ -21,13 +21,17 @@ function Design() {
       <Container>
       <h2>Services</h2>
         <Row>
-          <Col lg={{size: 4, offset: 2}} md={{size: 10, offset:1}}>
+          <Col lg="3" md={{size: 10, offset:1}}>
             <h3>Mechanical</h3>
             <ul className = {classes.services}>{listItems(copy.Design.Services.Mechanical)}</ul>
           </Col>
-          <Col lg="4" md={{size:10, offset:1}}>
+          <Col lg="3" md={{size:10, offset:1}}>
             <h3>Electrical</h3>
             <ul className = {classes.services}>{listItems(copy.Design.Services.Electrical)}</ul>
+          </Col>
+          <Col lg="3" md={{size:10, offset:1}}>
+            <h3>Product Design</h3>
+            <ul className = {classes.services}>{listItems(copy.Design.Services.Design)}</ul>
           </Col>
         </Row>
       </Container>

@@ -18,7 +18,7 @@
   }
 },
 "Design":{
-  "Statement": "We can help bring your idea to life with our skilled design services. We specialize in design for manufacturability / servicability and top of the line analysis.",
+  "Statement": "We can help bring your idea to life with our skilled design services. We specialize in design for manufacturability / servicability and top of the line analysis. Our holistic design approach gets you a more polished final product with fewer revisions and reworks.",
   "Services":{
     "Mechanical":[
       "CAD (Computer Aided Design)",
@@ -33,7 +33,12 @@
       "PCB Design",
       "Design for PCB Assembly",
       "Product Development",
-      "Circuit Design"]
+      "Circuit Design"],
+    "Design":[
+      "Mockups",
+      "Renderings",
+      "Weighted Models"
+    ]
   }
 },
 "Manufacturing":{
@@ -103,7 +108,6 @@
           "Electroless Nickel Plating",
           "Nickel Plated",
           "Passivation",
-          "Chemical Blackening",
           "Cerakoting",
           "Vibratory Polishing",
           "Painting"]

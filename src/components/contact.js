@@ -8,10 +8,15 @@ const useStyles = createUseStyles({
     "align-self": "center"
   },
   colKey: {
-    textAlign: 'left'
+    textAlign: 'left',
+    flexBasis: "40%",
+    flexGrow: 0
   },
   colValue: {
-    textAlign: 'left'
+    textAlign: 'left',
+  },
+  info: {
+    flexWrap: "nowrap"
   }
 });
 
@@ -28,7 +33,6 @@ class ContactForm extends React.Component {
     const { status } = this.state;
     return (
       <section className="paralax-mf footer-paralax bg-image sect-mt4 route">
-        <br></br>
         <h2>Send A Message</h2>
         <div>
           <form
@@ -126,30 +130,29 @@ class ContactForm extends React.Component {
 function Contact() {
   const classes = useStyles();
   return(
-    <div>
-      <Container>
-        <Row>
-          <Col lg={{size: 3, offset: 1}} className={classes.info}>
-            <h2>Contact Us</h2>
-            <Row>
-              <Col className={classes.colKey}>Email: </Col>
-              <Col className={classes.colValue}>{copy.Contact.Email}</Col>
-            </Row>
-            <Row>
-              <Col className={classes.colKey}>Phone: </Col>
-              <Col className={classes.colValue}>{copy.Contact.Phone}</Col>
-            </Row>
-            <Row>
-              <Col className={classes.colKey}>Address: </Col>
-              <Col className={classes.colValue}>{copy.Contact.Address}</Col>
-            </Row>
-          </Col>
-          <Col lg="7">
-            <ContactForm />
-          </Col>
-        </Row>
-      </Container>
-    </div>
+    <Container>
+      <br></br>
+      <Row>
+        <Col lg={{size: 4, offset: 1}} md="7" className={classes.info}>
+          <h2>Contact Us</h2>
+          <Row className={classes.info}>
+            <Col className={classes.colKey}>Email: </Col>
+            <Col className={classes.colValue}>{copy.Contact.Email}</Col>
+          </Row>
+          <Row className={classes.info}>
+            <Col className={classes.colKey}>Phone: </Col>
+            <Col className={classes.colValue}>{copy.Contact.Phone}</Col>
+          </Row>
+          <Row className={classes.info}>
+            <Col className={classes.colKey}>Address: </Col>
+            <Col className={classes.colValue}>{copy.Contact.Address}</Col>
+          </Row>
+        </Col>
+        <Col lg="6" md="5">
+          <ContactForm />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

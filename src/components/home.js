@@ -43,14 +43,18 @@ function Home() {
           </Col>
           <Col lg={{size: 10, offset: 1}}>
             <h1>Classifications and Certifications</h1>
-            {copy.Home.ClassificationsCertifications}
-            <br></br>
-            We are registered on SAM.gov as Fresh Press LLC and DUNS / CAGE codes are 118160742 and 92SM7 respecively.
+            <p className = {classes.statement}>
+              {copy.Home.ClassificationsCertifications}
+              <br></br><br></br>
+              We are registered on SAM.gov as Fresh Press LLC and DUNS / CAGE codes are 118160742 and 92SM7 respecively.
+              <br></br><br></br>
+              Pressta has been in business since 2017.
+            </p>
           </Col>
         </Row>
       </Container>
 
-      <Container>
+      {/* <Container>
         <br></br><br></br><br></br><br></br>
         <h2>Services (might get rid of this section)</h2>
         <Row justify="center">
@@ -73,7 +77,7 @@ function Home() {
             </div>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </div>
   );
 }

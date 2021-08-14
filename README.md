@@ -1,6 +1,8 @@
 Run `yarn build` and `firebase deploy` to deploy the app to: presstamfg.web.app
 
 ToDo:
+- delete header og.js
+- Link to the xometry profile on the site. Have their logo/banner to redirect
 - Get a better pic of the welded part
 - Put in payment methods accepted somewhere???
 - Crop and edit part pics from folder on the desktop
@@ -12,8 +14,7 @@ ToDo:
 - Does it make sense to have the images all hosted as files directly in firebase's content storage system? would that help load times/printability?
 
 - Header
-  - Buttons need to be left aligned
-  - Buttons should turn into dropdown menu instead of moving under logo
+  - background color?
 
 - Home Page:
   - find some way to convey that keeping the production in-house leads to discovering/improving problems early on and the difference between product modifications and complete reworks (both able to happen more effectively in-house)

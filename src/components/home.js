@@ -6,6 +6,9 @@ const useStyles = createUseStyles({
   statement: {
     textAlign: 'left'
   },
+  main: {
+    paddingTop: 71.78
+  }
 });
 
 // There's nothing in here for the bottom cards yet!!!!
@@ -14,7 +17,7 @@ const useStyles = createUseStyles({
 function Home() {
   const classes = useStyles();
   return (
-    <Container>
+    <Container className={classes.main}>
       <br></br>
       <Row justify="center">
         <Col lg={{size: 10, offset: 1}}>

@@ -7,6 +7,9 @@ function listItems(data){
 }
 
 const useStyles = createUseStyles({
+  main: {
+    paddingTop: 71.78
+  },
   services: {
     textAlign: 'left'
   },
@@ -18,7 +21,7 @@ const useStyles = createUseStyles({
 function Design() {
   const classes = useStyles();
   return (
-    <Container>
+    <Container className={classes.main}>
     <br></br>
     <p className = {classes.statement}>
       {copy.Design.Statement}

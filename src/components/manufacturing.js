@@ -14,6 +14,9 @@ import trotec from "../assets/Trotec.png";
 import miller from "../assets/Miller.png";
 
 const useStyles = createUseStyles({
+  main: {
+    paddingTop: 71.78
+  },
   card: {
     height:"100%"
   },
@@ -25,7 +28,7 @@ const useStyles = createUseStyles({
 function Manufacturing() {
   const classes = useStyles();
   return (
-    <nav>
+    <nav className={classes.main}>
       <Container>
         <br></br>
         <p className = {classes.statement}>

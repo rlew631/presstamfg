@@ -1,74 +1,74 @@
+import {Component, useState} from 'react';
 import logo from '../logo.svg';
 import {createUseStyles} from 'react-jss';
-import {Container, Row, Col} from 'reactstrap';
-import {Link} from "react-router-dom";
-import {Button} from 'reactstrap';
+import {
+  Collapse,
+  Nav,
+  Navbar,
+  NavbarBrand,
+  NavbarToggler,
+  NavItem,
+  NavLink
+} from 'reactstrap';
 
 const useStyles = createUseStyles({
   main: {
-    backgroundColor: '#535D8D',
-    display: 'flex'
+    // backgroundColor: '#535D8D',
+    "margin-right": 10
   },
-  image: {
-    margin: 10,
-    flexGrow: 1,
-    flexShrink: 1,
-    flexBasis: 0
+  toggle: {
+    "margin-right": 10
   },
-  links: {
-    margin: 10,
-    flexGrow: 1,
-    flexShrink: 1,
-    flexBasis: 0,
-    flexWrap: 'wrap',
-    justifyContent: 'right',
-    flexDirection: "row"
+  logo: {
+    "margin-left": 10
   },
-  button: {
-    margin: '0.25em'
+  navbar: {
+    "justify-content": "flex-end",
+    "margin-right": 10
+  },
+  header: {
+    position: "fixed",
+    top: 0,
+    right: 0,
+    left: 0,
+    height: "auto",
+    padding: "15px 0px",
+    zIndex: 1
   }
 });
 
+const links = [
+  { href: "/", text: 'Home' },
+  { href: "/design", text: 'Design' },
+  { href: '/manufacturing', text: 'Manufacturing' },
+  { href: '/contact', text: 'Contact' }
+];
+
+const createNavItem = ({ href, text, className }) => (
+  <NavItem>
+    <NavLink href={href} className={className}>{text}</NavLink>
+  </NavItem>
+);
+
 function Header() {
   const classes = useStyles();
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  }
+
   return (
-    <header className={classes.main}>
-      <Container>
-        <Row>
-        <Col lg="7">
-          <div className={classes.image}>
-            <img src={logo} alt="logo"/>
-          </div>
-        </Col>
-        <Col lg="5">
-          <nav className={classes.links}>
-            <Row>
-              <Col md="5" className={classes.button}>
-                <Link to="/">
-                  <Button>Home</Button>
-                </Link>
-              </Col>
-              <Col md="5" className={classes.button}>
-                <Link to="/design">
-                  <Button>Design</Button>
-                </Link>
-              </Col>
-              <Col md="5" className={classes.button}>
-                <Link to="/manufacturing">
-                  <Button>Manufacturing</Button>
-                </Link>
-              </Col>
-              <Col md="5" className={classes.button}>
-                <Link to="/contact">
-                  <Button>Contact</Button>
-                </Link>
-              </Col>
-            </Row>
-          </nav>
-        </Col>
-        </Row>
-      </Container>
-    </header>
+    <Navbar color='light' light expand="md" className={classes.header}>
+      <NavbarBrand href="/" className={classes.logo}>
+        <img src={logo} alt="logo" height="30"/>
+      </NavbarBrand>
+      <NavbarToggler onClick={toggle} className={classes.toggle}/>
+      <Collapse isOpen={isOpen} navbar className={classes.navbar}>
+        <Nav navbar>
+          {links.map(createNavItem)}
+        </Nav>
+      </Collapse>
+    </Navbar>
   );
 }
 

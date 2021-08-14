@@ -4,6 +4,9 @@ import {Button, Container, Row, Col } from "reactstrap";
 import copy from '../copy.json';
 
 const useStyles = createUseStyles({
+  main: {
+    paddingTop: 71.78
+  },
   info: {
     "align-self": "center"
   },
@@ -130,7 +133,7 @@ class ContactForm extends React.Component {
 function Contact() {
   const classes = useStyles();
   return(
-    <Container>
+    <Container className={classes.main}>
       <br></br>
       <Row>
         <Col lg={{size: 4, offset: 1}} md="7" className={classes.info}>

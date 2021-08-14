@@ -1,6 +1,8 @@
 Run `yarn build` and `firebase deploy` to deploy the app to: presstamfg.web.app
 
 ToDo:
+- Get a better pic of the welded part
+- Put in payment methods accepted somewhere???
 - Crop and edit part pics from folder on the desktop
 - get part pics from the PDF deck sent to stu (should be in google drive)
 - change logo

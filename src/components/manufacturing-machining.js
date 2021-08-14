@@ -33,13 +33,16 @@ const useStyles = createUseStyles({
   },
   cnc: {
     flexWrap:"wrap"
+  },
+  main: {
+    paddingTop: 90
   }
 });
 
 function ManufacturingMachining() {
   const classes = useStyles();
   return (
-    <div>
+    <div className={classes.main}>
       <Container>
         <Row justify="stretch"> {/* doesn't seem to work like flexbox stretch */}
           <Col lg="3" md="6">

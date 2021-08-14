@@ -8,8 +8,9 @@ import {
   NavbarBrand,
   NavbarToggler,
   NavItem,
-  NavLink
+  // NavLink
 } from 'reactstrap';
+import {Link} from "react-router-dom";
 
 const useStyles = createUseStyles({
   main: {
@@ -34,6 +35,16 @@ const useStyles = createUseStyles({
     height: "auto",
     padding: "15px 0px",
     zIndex: 1
+  },
+  links: {
+    color: "rgba(0,0,0,.55)",
+    paddingRight: ".5rem",
+    paddingLeft: ".5rem",
+    textDecoration: "none",
+    "&:hover": {
+      color: "rgba(0,0,0,.7)"
+    }
+
   }
 });
 
@@ -44,18 +55,19 @@ const links = [
   { href: '/contact', text: 'Contact' }
 ];
 
-const createNavItem = ({ href, text, className }) => (
-  <NavItem>
-    <NavLink href={href} className={className}>{text}</NavLink>
-  </NavItem>
-);
-
 function Header() {
+
   const classes = useStyles();
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
   }
+  const createNavItem = ({ href, text, className }) => (
+    <NavItem>
+      {/* <NavLink href={href}>{text}</NavLink> */}
+      <Link to={href} className={classes.links}>{text}</Link>
+    </NavItem>
+  );
 
   return (
     <Navbar color='light' light expand="md" className={classes.header}>

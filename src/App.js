@@ -30,7 +30,6 @@ function App() {
         <body>
           <Switch>
             <Route path="/" exact={true} component={Home} ></Route>
-            {/*<Route path="/design" component={Design}></Route>*/}
             <Route path="/design" component={Design}></Route>
             <Route path="/manufacturing" component={Manufacturing}></Route>
             <Route path="/manufacturing-machining" component={ManufacturingMachining}></Route>

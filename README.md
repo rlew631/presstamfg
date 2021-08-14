@@ -1,7 +1,7 @@
 Run `yarn build` and `firebase deploy` to deploy the app to: presstamfg.web.app
 
 ToDo:
-- delete header og.js
+- delete header old.js after several revs
 - Link to the xometry profile on the site. Have their logo/banner to redirect
 - Get a better pic of the welded part
 - Put in payment methods accepted somewhere???

@@ -16,12 +16,15 @@ const useStyles = createUseStyles({
   materialFinishes: {
     textAlign: 'left'
   },
+  main: {
+    paddingTop: 90
+  }
 });
 
 function ManufacturingLaser() {
   const classes = useStyles();
   return (
-    <div>
+    <div className={classes.main}>
       <Container>
         <Row justify="stretch"> {/* doesn't seem to work like flexbox stretch */}
           <Col lg="3" md="6">

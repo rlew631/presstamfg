@@ -1,7 +1,6 @@
 import {createUseStyles} from 'react-jss';
 import Header from './components/header';
 import Home from './components/home'
-// import Design from './components/design';
 import Design from './components/design';
 import Manufacturing from './components/manufacturing';
 import ManufacturingMachining from './components/manufacturing-machining';

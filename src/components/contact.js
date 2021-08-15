@@ -5,7 +5,7 @@ import copy from '../copy.json';
 
 const useStyles = createUseStyles({
   main: {
-    paddingTop: 71.78
+    paddingTop: 90
   },
   info: {
     "align-self": "center"
@@ -134,7 +134,6 @@ function Contact() {
   const classes = useStyles();
   return(
     <Container className={classes.main}>
-      <br></br>
       <Row>
         <Col lg={{size: 4, offset: 1}} md="7" className={classes.info}>
           <h2>Contact Us</h2>

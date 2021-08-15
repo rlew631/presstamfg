@@ -7,7 +7,7 @@ const useStyles = createUseStyles({
     textAlign: 'left'
   },
   main: {
-    paddingTop: 71.78
+    paddingTop: 90
   }
 });
 
@@ -18,7 +18,6 @@ function Home() {
   const classes = useStyles();
   return (
     <Container className={classes.main}>
-      <br></br>
       <Row justify="center">
         <Col lg={{size: 10, offset: 1}}>
           <h1>What We Do</h1>

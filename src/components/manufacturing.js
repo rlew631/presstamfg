@@ -1,10 +1,16 @@
 import {Link} from "react-router-dom";
 import {createUseStyles} from 'react-jss';
-import { Container, Row, Col } from 'reactstrap';
 import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, /*CardSubtitle,*/
-  Button
+  Card,
+  CardImg,
+  CardText,
+  CardBody,
+  CardTitle,
+  /*CardSubtitle,*/
+  Button,
+  Container,
+  Row,
+  Col
 } from 'reactstrap';
 import copy from '../copy.json';
 
@@ -15,7 +21,7 @@ import miller from "../assets/Miller.png";
 
 const useStyles = createUseStyles({
   main: {
-    paddingTop: 71.78
+    paddingTop: 90
   },
   card: {
     height:"100%"
@@ -30,7 +36,6 @@ function Manufacturing() {
   return (
     <nav className={classes.main}>
       <Container>
-        <br></br>
         <p className = {classes.statement}>
           {copy.Manufacturing.Statement}
         </p>

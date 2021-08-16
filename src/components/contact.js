@@ -9,7 +9,8 @@ const useStyles = createUseStyles({
   },
   info: {
     "align-self": "center",
-    flexWrap: "nowrap"
+    flexWrap: "nowrap",
+    paddingBottom: "0.5em"
   },
   colKey: {
     textAlign: 'left',
@@ -145,7 +146,9 @@ function Contact() {
           </Row>
           <Row className={classes.info}>
             <Col className={classes.colKey}>Address: </Col>
-            <Col className={classes.colValue}>{copy.Contact.Address}</Col>
+            <Col className={classes.colValue}>
+              73 Converse St.<br/>San Francisco,<br/>CA 94103
+            </Col>
           </Row>
         </Col>
         <Col lg="6" md="5">

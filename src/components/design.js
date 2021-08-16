@@ -45,7 +45,7 @@ function Design() {
           </p>
         </Col>
       </Row>
-    <h2>Services</h2>
+    <h1>Services</h1>
       <Col lg={{size: 10, offset: 1}}>
         <Row>
           <Col lg="4" md="12" className={classes.cardCol}>

@@ -1,5 +1,5 @@
 import {createUseStyles} from 'react-jss';
-import { Container, Row, Col } from 'reactstrap';
+import {Container, Row, Col } from 'reactstrap';
 import copy from '../copy.json';
 
 const useStyles = createUseStyles({
@@ -18,7 +18,7 @@ function Home() {
   const classes = useStyles();
   return (
     <Container className={classes.main}>
-      <Row justify="center">
+      <Row>
         <Col lg={{size: 10, offset: 1}}>
           <h1>What We Do</h1>
           <p className = {classes.statement}>

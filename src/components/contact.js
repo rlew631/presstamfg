@@ -8,7 +8,8 @@ const useStyles = createUseStyles({
     paddingTop: 90
   },
   info: {
-    "align-self": "center"
+    "align-self": "center",
+    flexWrap: "nowrap"
   },
   colKey: {
     textAlign: 'left',
@@ -17,9 +18,6 @@ const useStyles = createUseStyles({
   },
   colValue: {
     textAlign: 'left',
-  },
-  info: {
-    flexWrap: "nowrap"
   }
 });
 

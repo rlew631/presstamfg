@@ -15,7 +15,7 @@ import {
 } from "react-router-dom";
 
 const useStyles = createUseStyles({
-  main: {
+  body: {
     textAlign: 'center'
   }
 });
@@ -23,10 +23,10 @@ const useStyles = createUseStyles({
 function App() {
   const classes = useStyles();
   return (
-    <div className={classes.main}>
+    <div>
       <Router>
         <Header/>
-        <body>
+        <body className={classes.body}>
           <Switch>
             <Route path="/" exact={true} component={Home} ></Route>
             <Route path="/design" component={Design}></Route>

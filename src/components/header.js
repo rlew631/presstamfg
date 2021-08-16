@@ -1,4 +1,4 @@
-import {Component, useState} from 'react';
+import {useState} from 'react';
 import logo from '../logo.svg';
 import {createUseStyles} from 'react-jss';
 import {
@@ -62,9 +62,8 @@ function Header() {
   const toggle = () => {
     setIsOpen(!isOpen);
   }
-  const createNavItem = ({ href, text, className }) => (
+  const createNavItem = ({ href, text }) => (
     <NavItem>
-      {/* <NavLink href={href}>{text}</NavLink> */}
       <Link to={href} className={classes.links}>{text}</Link>
     </NavItem>
   );

@@ -61,21 +61,21 @@ function ManufacturingMachining() {
                 Contact us for questions regarding titanium and other exotic metals.
                 <Row>
                   <Col md="6">
-                    <h3><img src={steel} className={classes.materialIcon}></img> Steel</h3>
+                    <h3><img src={steel} alt="" className={classes.materialIcon}></img> Steel</h3>
                     <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Steel)}</ul>
                   </Col>
                   <Col md="6">
                     <h3 className={classes.Aluminum}>
-                      <img src={aluminum} className={classes.materialIcon}></img> Aluminum
+                      <img src={aluminum} alt="" className={classes.materialIcon}></img> Aluminum
                     </h3>
                     <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Aluminum)}</ul>
                   </Col>
                   <Col md="6">
-                    <h3><img src={brass} className={classes.materialIcon}></img> Brass and Bronze</h3>
+                    <h3><img src={brass} alt="" className={classes.materialIcon}></img> Brass and Bronze</h3>
                     <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.BrassBronze)}</ul>
                   </Col>
                   <Col md="6">
-                    <h3><img src={plastic} className={classes.materialIcon}></img> Plastic</h3>
+                    <h3><img src={plastic} alt="" className={classes.materialIcon}></img> Plastic</h3>
                     <ul className = {classes.materialFinishes}>{listItems(copy.Manufacturing.Services.Machining.Materials.Plastic)}</ul>
                   </Col>
                 </Row>

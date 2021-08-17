@@ -1,7 +1,7 @@
 import {createUseStyles} from 'react-jss';
 import {
   Card,
-  // CardImg,
+  CardImg,
   CardText,
   CardBody,
   CardTitle,
@@ -11,6 +11,10 @@ import {
   Col
 } from 'reactstrap';
 import copy from '../copy.json';
+
+import gearbox from '../assets/gearbox.jpg';
+import pcb from '../assets/pcb.jpg';
+import rendering from '../assets/product_rendering.jpg';
 
 function listItems(data){
   return(data.map((d) => <li>{d}</li>));
@@ -50,6 +54,7 @@ function Design() {
         <Row>
           <Col lg="4" md="12" className={classes.cardCol}>
             <Card className={classes.card}>
+              <CardImg top width="100%" src={gearbox} alt="mechanical stock photo" />
               <CardBody>
                 <CardTitle tag="h3">Mechanical</CardTitle>
                 <CardText>
@@ -60,6 +65,7 @@ function Design() {
           </Col>
           <Col lg = "4" md="12" className={classes.cardCol}>
             <Card className={classes.card}>
+            <CardImg top width="100%" src={pcb} alt="electrical stock photo" />
               <CardBody>
                 <CardTitle tag="h3">Electrical</CardTitle>
                 <CardText>
@@ -70,6 +76,7 @@ function Design() {
           </Col>
           <Col lg="4" md="12" className={classes.cardCol}>
             <Card className={classes.card}>
+              <CardImg top width="100%" src={rendering} alt="design stock photo" />
               <CardBody>
                 <CardTitle tag="h3">Product Design</CardTitle>
                 <CardText>

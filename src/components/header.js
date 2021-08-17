@@ -18,7 +18,6 @@ const useStyles = createUseStyles({
     top: 0,
     right: 0,
     left: 0,
-    "margin-right": 10,
     backgroundColor: "rgba(var(--bs-light-rgb))",
     height: 71.78
   },

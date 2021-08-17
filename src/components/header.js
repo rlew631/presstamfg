@@ -8,14 +8,16 @@ import {
   NavbarBrand,
   NavbarToggler,
   NavItem,
-  // NavLink
 } from 'reactstrap';
 import {Link} from "react-router-dom";
 
 const useStyles = createUseStyles({
   main: {
     // backgroundColor: '#535D8D',
-    "margin-right": 10
+    zIndex: 1,
+    "margin-right": 10,
+    backgroundColor: "rgba(var(--bs-light-rgb))",
+    height: 71.78
   },
   toggle: {
     "margin-right": 10
@@ -33,8 +35,7 @@ const useStyles = createUseStyles({
     right: 0,
     left: 0,
     height: "auto",
-    padding: "15px 0px",
-    zIndex: 1
+    padding: "15px 0px"
   },
   links: {
     color: "rgba(0,0,0,.55)",
@@ -67,19 +68,23 @@ function Header() {
       <Link to={href} className={classes.links}>{text}</Link>
     </NavItem>
   );
+  const header = "col-lg-10 offset-lg-1 col-md-10 offset-md-1 " + classes.header;
 
   return (
-    <Navbar color='light' light expand="md" className={classes.header}>
-      <NavbarBrand href="/" className={classes.logo}>
-        <img src={logo} alt="logo" height="30"/>
-      </NavbarBrand>
-      <NavbarToggler onClick={toggle} className={classes.toggle}/>
-      <Collapse isOpen={isOpen} navbar className={classes.navbar}>
-        <Nav navbar>
-          {links.map(createNavItem)}
-        </Nav>
-      </Collapse>
-    </Navbar>
+    <div className={classes.main}>
+      <Navbar color="light" light expand="md" className={header}>
+        <NavbarBrand href="/" className={classes.logo}>
+          <img src={logo} alt="logo" height="30"/>
+        </NavbarBrand>
+        <NavbarToggler onClick={toggle} className={classes.toggle}/>
+        <Collapse isOpen={isOpen} navbar className={classes.navbar}>
+          <Nav navbar>
+            {links.map(createNavItem)}
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>
+    
   );
 }
 

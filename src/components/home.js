@@ -37,7 +37,7 @@ function Home() {
           </Col>
           <Col lg="7">
             <p>
-              <img src={flange} className= {classes.pictures}/>
+              <img src={flange} alt='thread milled aluminum flange' className= {classes.pictures}/>
             </p>
           </Col>
         </Row>
@@ -50,7 +50,7 @@ function Home() {
           </Col>
           <Col lg='7'>
             <p>
-              <img src={plug} className= {classes.pictures}/>
+              <img src={plug} alt='brass plug' className= {classes.pictures}/>
             </p>
           </Col>
         </Row>
@@ -63,7 +63,7 @@ function Home() {
           </Col>
           <Col lg='7'>
             <p>
-              <img src={adapter} className= {classes.pictures}/>
+              <img src={adapter} alt='aluminum adapter fitting' className= {classes.pictures}/>
             </p>
           </Col>
         </Row>
@@ -76,7 +76,7 @@ function Home() {
           </Col>
           <Col lg='7'>
             <p>
-              <img src={cams} className= {classes.pictures}/>
+              <img src={cams} alt='small aluminum camshafts' className= {classes.pictures}/>
             </p>
           </Col>
         </Row>
@@ -87,13 +87,13 @@ function Home() {
               {copy.Home.ClassificationsCertifications}
               <br /><br />
               We are registered on SAM.gov as Fresh Press LLC and DUNS / CAGE codes are 118160742 and 92SM7 respecively.
-              <br></br><br></br>
+              <br /><br />
               Pressta has been in business since 2017.
             </p>
           </Col>
           <Col lg='7'>
             <p>
-              <img src={clasps} className= {classes.pictures}/>
+              <img src={clasps} alt='small stainless clasps' className= {classes.pictures}/>
             </p>
           </Col>
         </Row>

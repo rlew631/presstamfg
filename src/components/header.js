@@ -18,8 +18,8 @@ const useStyles = createUseStyles({
     top: 0,
     right: 0,
     left: 0,
-    backgroundColor: "rgba(var(--bs-light-rgb))",
-    height: 71.78
+    backgroundColor: "#f8f9fa",
+    height: 75
   },
   toggle: {
     "margin-right": 10
@@ -76,7 +76,7 @@ function Header() {
     <div className={classes.main}>
       <Navbar color="light" light expand="md" className={header}>
         <NavbarBrand href="/" className={classes.logo}>
-          <img src={logo} alt="logo" height="30"/>
+          <img src={logo} alt="logo" height="35"/>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} className={classes.toggle}/>
         <Collapse isOpen={isOpen} navbar className={classes.navbar}>

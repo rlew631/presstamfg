@@ -8,6 +8,7 @@ ToDo:
 - Go through unused copy in src/copy.json
 - What would the user story be for someone coming in at any point of the cycle and what does our "consulting service" hourly/weekly/etc. get billed out as.
 - make it so you can go directly to the different page URLs (server vs client side routing)
+- remove un-needed pics
 
 
 - Every page

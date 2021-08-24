@@ -8,7 +8,7 @@ import cams from '../assets/AluminumCams.png'
 import clasps from '../assets/StainlessClasps.jpg'
 
 const useStyles = createUseStyles({
-  statement: {
+  statements: {
     textAlign: 'left'
   },
   main: {
@@ -20,20 +20,18 @@ const useStyles = createUseStyles({
   textAlign: {
     paddingTop: '3em',
     paddingBottom: '1em'
-  }
+  },
 });
 
 function Home() {
   const classes = useStyles();
   return (
     <Container className={classes.main}>
-      <Col lg={{size: 10, offset: 1}}>
+      <Col lg={{size: 10, offset: 1}} className={classes.statements}>
         <Row>
           <Col lg="5" className={classes.textAlign}>
-            <h1>What We Do</h1>
-            <p className = {classes.statement}>
-              {copy.Home.WhatWeDoStatement}
-            </p>
+            <h2>What We Do</h2>
+            <p className = {classes.statement}>{copy.Home.WhatWeDoStatement}</p>
           </Col>
           <Col lg="7">
             <p>
@@ -43,7 +41,7 @@ function Home() {
         </Row>
         <Row className='flex-row-reverse'>
           <Col lg='5' className={classes.textAlign}>
-            <h1>About The Team</h1>
+            <h2>About The Team</h2>
             <p className = {classes.statement}>
               {copy.Home.AboutUsStatement}
             </p>
@@ -56,7 +54,7 @@ function Home() {
         </Row>
         <Row>
           <Col lg='5' className={classes.textAlign}>
-            <h1>Why Use Pressta</h1>
+            <h2>Why Use Pressta</h2>
             <p className = {classes.statement}>
               {copy.Home.WhyUsePresstaStatement} 
             </p>
@@ -69,7 +67,7 @@ function Home() {
         </Row>
         <Row className='flex-row-reverse'>
           <Col lg='5' className={classes.textAlign}>
-            <h1>Industries Served</h1>
+            <h2>Industries Served</h2>
             <p className = {classes.statement}>
               {copy.Home.IndustriesStatement}
             </p>

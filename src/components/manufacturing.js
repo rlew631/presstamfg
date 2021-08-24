@@ -28,6 +28,9 @@ const useStyles = createUseStyles({
   },
   statement: {
     textAlign: 'left'
+  },
+  colSpace: {
+    paddingTop: '1.5em'
   }
 });
 
@@ -37,13 +40,13 @@ function Manufacturing() {
     <nav className={classes.main}>
       <Container>
         <Row>
-          <Col lg={{size:10, offset:1}}>
+          <Col lg={{size:10, offset:1}} className={classes.colSpace}>
             <p className = {classes.statement}>
             {copy.Manufacturing.Statement}
             </p>
             <h1>Services</h1>
             <Row justify="stretch"> {/* doesn't seem to work like flexbox stretch */}
-              <Col lg="3" md="6">
+              <Col lg="3" md="6" className={classes.colSpace}>
                 <Card className={classes.card}>
                   <CardImg top width="100%" src={haas} alt="Haas VF2SSYT CNC Machine" />
                   <CardBody>
@@ -55,7 +58,7 @@ function Manufacturing() {
                   </CardBody>
                 </Card>
               </Col>
-              <Col lg="3" md="6">
+              <Col lg="3" md="6" className={classes.colSpace}>
                 <Card className={classes.card}>
                   <CardImg top width="100%" src={stratysis} alt="Stratysis SLA 3D Printer" />
                   <CardBody>
@@ -67,7 +70,7 @@ function Manufacturing() {
                   </CardBody>
                 </Card>
               </Col>
-              <Col lg="3" md="6">
+              <Col lg="3" md="6" className={classes.colSpace}>
                 <Card className={classes.card}>
                   <CardImg top width="100%" src={trotec} alt="Trotec laser cutter" />
                   <CardBody>
@@ -79,7 +82,7 @@ function Manufacturing() {
                   </CardBody>
                 </Card>
               </Col>
-              <Col lg="3" md="6">
+              <Col lg="3" md="6" className={classes.colSpace}>
                 <Card className={classes.card}>
                   <CardImg top width="100%" src={miller} alt="miller MIG/TIG welder" />
                   <CardBody>
